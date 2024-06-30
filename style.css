@@ -1,0 +1,32 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+.card {
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+}
+
+.btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+#result img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
